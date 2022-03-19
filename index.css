@@ -1,0 +1,220 @@
+body{
+    background-color: #4B88A2;
+}
+.brand-image{
+    width:240px;
+    height:32px;
+    margin-bottom: 20px;
+}
+
+.search-bar{
+    display: block;
+    width: 60%;
+    height: 42px;
+    border-radius: 2px;
+    border-style:none;
+    outline: firebrick;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.search-bar:hover{
+    background-color: #ccc;
+}
+.top-bar{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+    
+}
+.border{
+    text-align: center;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  .panel {
+    width: 240px;
+    border-radius: 5px;
+    margin-top: 60px;
+    outline: none;
+    border-style: none;
+    display: none;
+    background-color: rgb(252, 249, 249);
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+  }
+  @media screen and (max-width:720px) {
+
+      .panel {
+
+    width: 240px;
+    border-radius: 5px;
+    margin-top: 48px;
+    outline: none;
+    border-style: none;
+    display: none;
+    background-color: rgb(252, 249, 249);
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    right:12%;
+  }
+  }
+.event{
+    text-align: center;
+}
+
+
+.image{
+    width: 360px;
+    height:240px
+}
+ul{
+    list-style: none;
+}
+.results{
+    width: 100%;
+    
+}
+.flex-box{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width:360px;
+   height: 100%;
+    background-color: #252627 ;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    padding: 8px;
+    transition: 1s ease-in-out;
+    box-shadow: 12px 18px 8px 1px #404447;
+}
+.card:hover{
+    transform: scale(1.025);
+}
+
+.title{
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    color:lightgrey;
+}
+.card-singer{
+   
+    display: flex;
+    gap: 2px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(208, 219, 233);
+    border-radius: 2px;
+    width: 60%;
+    height: 42px;
+}
+.singer-image{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.singer-title{
+    font-size: 15px;
+}
+.title-box{
+    
+    height: 100px;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.date-box{
+    
+   margin: 0 15px;
+   display:flex;
+   gap: 10px;
+   align-items: center;
+}
+.time-icon{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+}
+.fas{
+    font-size: 15px;
+    text-align: center;
+    margin: 0 10px;
+}
+header{
+    font-size: 22px;
+    text-align: center;
+}
+p{
+    color: lightgrey;
+    font-size: 12px;
+   
+}
+.artist{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    background-color:firebrick;
+    height: 40px;
+    bottom: 2px;
+    line-height: 3;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.down-text{
+    font-size: 15px;
+    color: #444;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin: 2px 10px;
+}
+.card-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.follow-button{
+    width: 72px;
+    border: none;
+    border-radius: 20px;
+    height: 36px;
+    background-color: firebrick;
+    color: #eee;
+}

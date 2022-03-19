@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>See Tickets - Search Results</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+<link rel="stylesheet" href="index.css" />
+
+
+<!-- Header Section -->
+  </head>
+  <body class="body">
+    <header>
+      <a href="/" title="See Tickets Home">
+        <img
+          class="brand-image"
+          src="http://c.ststat.net/content/seetickets/logos/SeeTickets_570x96_black_transparent.png"
+        />
+      </a>
+    </header>
+    <hr />
+
+<!-- Center Part -->
+            <!-- Searchbar -->
+      <section class="top-bar">
+        <input
+          class="search-bar"
+          type="search"
+          autocomplete="on"
+          maxlength="50"
+          placeholder="Search artist, event, venue, location..."
+        />
+
+
+            <!-- Filter -->
+
+        <div class="filter">
+          <header class="accordion"><i class="fas fa-filter"></i></header>
+          <fieldset class="panel">
+            <h3 class="event">Event type</h3>
+            <hr />
+            <div class="filter-box"></div>
+          </fieldset>
+        </div>
+      </section>
+
+
+
+      <h1 class="border"></h1>
+
+
+      <div class="results"></div>
+
+      <!-- Adding the data by DOM Manupulation -->
+
+
+
+
+    <hr />
+
+
+
+    <!-- Footer -->
+    <footer>
+      <p class="down-text">
+        @See is a trademark of SEE GROUP LIMITED. Registered Office: 2nd Floor,
+        Norfolk House, 47 Upper Parliament Street, Nottingham, NG1 2AB.
+      </p>
+      <nav class="footer">
+        <a
+          href="/content/partial/terms-and-conditions"
+          title="Terms and Conditions"
+          data-handler="contextOverlay"
+          >Terms and Conditions</a
+        >
+
+        <a href="/content/cookies-info" title="Cookie Policy">Cookie Policy</a>
+
+        <a
+          href="/content/partial/data-protection"
+          title="Data Protection"
+          data-handler="contextOverlay"
+          >Data Protection</a
+        >
+
+        <a
+          href="https://www.seetickets.us/"
+          title="Visit See Tickets US"
+          target="SeeTicketsUS"
+          >Visit See Tickets US</a
+        >
+      </nav>
+    </footer>
+    <script type="module" src="./Js/index.js"></script>
+  </body>
+</html>
